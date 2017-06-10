@@ -3,3 +3,14 @@
 
 @import "AdminLTE";
 @import "skins/skin-blue";
+
+
+body {
+ background-image:url(/classroom.jpg) !important;
+ background-position: top center !important; 
+ background-repeat: no-repeat !important;
+ -webkit-background-size: cover !important;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+}
