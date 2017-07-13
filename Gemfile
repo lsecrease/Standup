@@ -8,8 +8,7 @@ end
 
 gem 'rails', '~> 5.0.1'
 gem 'i18n', '~> 0.6'
-#gem 'pg', '~> 0.18'
-gem 'sqlite3'
+gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -62,10 +61,14 @@ gem 'griddler'
 gem 'griddler-sendgrid'
 
 gem 'rollbar'
-
+gem 'surus', github: 'JackC/surus'
+gem 'listen', '~> 3.0.5'
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails', '~> 3.5'
+  gem 'sqlite3'
+  gem 'rails-controller-testing'
+  gem 'faker'
 end
 
 gem 'simplecov', :require => false, :group => :test
@@ -74,7 +77,6 @@ gem "factory_girl_rails", "~> 4.0"
 group :development do
   gem "letter_opener"
   gem 'web-console'
-  gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'capybara'

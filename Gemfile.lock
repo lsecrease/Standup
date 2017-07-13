@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/JackC/surus.git
+  revision: 9cee4fd2b9841a63d2f0e98704bf56b2511cd08f
+  specs:
+    surus (0.6.5)
+      activerecord (> 4.2)
+
+GIT
   remote: https://github.com/sinatra/sinatra.git
   revision: ec08e37bf8b4d1bbb6f28cc3eaf37eea172dc08f
   specs:
@@ -202,6 +209,7 @@ GEM
       cocaine (~> 0.5.5)
       mime-types
       mimemagic (~> 0.3.0)
+    pg (0.21.0)
     polyamorous (1.3.1)
       activerecord (>= 3.0)
     premailer (1.10.4)
@@ -375,6 +383,7 @@ DEPENDENCIES
   money-rails
   paper_trail
   paperclip
+  pg (~> 0.18)
   premailer-rails
   puma (~> 3.0)
   rack-cors
@@ -395,6 +404,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
+  surus!
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
